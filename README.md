@@ -1,14 +1,16 @@
-# 🛍️ KampusMarket
+#KampusMarket
 
 Aplikasi mobile marketplace jual-beli barang bekas mahasiswa — dibangun dengan
 **React Native + Expo SDK 54.0.8**, memakai API publik [DummyJSON](https://dummyjson.com)
 untuk data produk & simulasi login.
+<img width="738" height="1600" alt="image" src="https://github.com/user-attachments/assets/a67317ec-1850-4565-87a2-c920268fc721" />
+
 
 Dibuat untuk memenuhi **UAS Praktikum Pemrograman Mobile**.
 
 ---
 
-## 🚀 Cara Menjalankan (Expo Go)
+##Cara Menjalankan (Expo Go)
 
 1. **Install dependencies**
    ```bash
@@ -36,7 +38,7 @@ Akun lain bisa dilihat di https://dummyjson.com/users
 
 ---
 
-## ✅ Checklist Ketentuan Wajib UAS
+## Checklist Ketentuan Wajib UAS
 
 | # | Ketentuan | Implementasi |
 |---|---|---|
@@ -48,7 +50,7 @@ Akun lain bisa dilihat di https://dummyjson.com/users
 | 6 | **Navigasi** | Bottom tab (Home, Wishlist, Profil) via `@react-navigation/bottom-tabs`, Home→Detail via nested stack. Auth-gate: `RootNavigator` menukar seluruh stack berdasarkan status login (`AuthContext`), sehingga tab utama tidak bisa diakses sebelum login. |
 | 7 | **Networking & API** | Semua fetch di `src/api/dummyjson.js` dengan timeout + error handling rapi. Setiap layar menampilkan status **loading / success / error** secara eksplisit lewat komponen `StatusView`, plus tombol **Coba Lagi** dan **pull-to-refresh**. |
 
-## 🗂️ Struktur Folder
+## Struktur Folder
 
 ```
 KampusMarket/
@@ -69,7 +71,7 @@ KampusMarket/
 └── package.json
 ```
 
-## 🎨 Fitur Tambahan (nilai plus)
+## Fitur Tambahan (nilai plus)
 - Desain modern dengan gradient header, kartu produk dengan badge diskon & rating.
 - Debounced search supaya UI tetap mulus.
 - Pull-to-refresh di halaman Katalog.
