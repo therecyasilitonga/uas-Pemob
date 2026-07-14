@@ -2,6 +2,7 @@
 
 NAMA KELOMPOK
 THERECYA SILITONGA 233510300
+
 TOGI MARITO MANURUNG 233510308
 
 Aplikasi mobile marketplace jual-beli barang bekas mahasiswa — dibangun dengan **React Native + Expo SDK 54.0.8**, memakai API publik [DummyJSON](https://dummyjson.com) untuk data produk & simulasi login.
